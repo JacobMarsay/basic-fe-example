@@ -1,0 +1,20 @@
+.centered-content-wrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(211, 211, 211, 0.596);
+   padding: 100px;
+   text-align: center;
+}
+
+.centered-content-wrapper h2 {
+   padding: 30px;
+}
+
+.centered-content-wrapper p {
+   width: 50%;
+   line-height: 25px;
+   padding: 30px;
+}
+

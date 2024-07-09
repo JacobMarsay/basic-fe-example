@@ -1,0 +1,75 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+h1 {
+   font-size: 86px;
+}
+
+h2 {
+   font-size: 46px;
+}
+
+h3 {
+   font-size: 24px;
+}
+
+h1, h2, h3, h4 {
+   font-family: "Saira Stencil One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+a, span, p, li, button {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 400;
+   font-style: normal
+}
+
+a, li {
+   text-decoration: none;
+   list-style: none;
+}
+
+p, a {
+   font-size: 18px;
+}
+
+button {
+   padding: 20px 30px;
+   border-radius: 10px;
+   border: solid 2px black;
+   font-size: 18px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   background: linear-gradient(135deg, rgba(19, 19, 19, 0) 50%, rgb(19, 19, 19) 50%);
+   background-size: 200% 200%;
+   transition: background-position 0.4s, color 0.4s;
+}
+
+button:hover {
+   cursor: pointer;
+   color: white;
+   background-position: 100% 100%;
+}
+
+
+svg {
+   width: 35px;
+   transition: fill 0.4s;
+}
+
+svg:hover path {
+   cursor: pointer;
+   animation: fillAnimation 0.7s forwards;
+}
+
+@keyframes fillAnimation {
+   0% {
+      fill: transparent;
+   }
+   100% {
+      fill: white;
+   }
+}
